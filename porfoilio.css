@@ -1,0 +1,630 @@
+* {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a button {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.scrol {
+    position: relative;
+    left: 199px;
+    top: 30px;
+    width: 50%;
+}
+.scrol p{
+    font-size: 14px;
+}
+
+.left li {
+    display: flex;
+    margin-bottom: 23px;
+}
+.left > a > button {
+    height: 30px;
+    width: 90px;
+    color: white;
+    background-color: black;
+}
+.left img {
+    width: 40px;
+    
+    height: 40px;
+    margin-bottom: 35px;
+    border-radius: 100%;
+}
+.left {
+    position: fixed;
+    left:60px;
+    top:35px;
+}
+.hero .image img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 35px;
+    border-radius: 100%;
+}
+.hero .image {
+    display: flex;
+    width: 50%;
+}
+
+.hero .image span{
+    position: relative;
+    left: 9px;
+    top: 10px;
+}
+.big_image {
+    width:25%;
+    /* background-color: black; */
+    float: right;
+    position: relative;
+    /* left: 4px; */
+
+
+}
+.guy {
+    float: right;
+    width: 320px;
+    border-radius: 100%;
+    height: 320px;
+    position: relative;
+    left: 256px;
+    top: -374px;
+    
+}
+.hero h1 {
+    font-size: 57px;
+}
+.hero p {
+    font-size: 20px;
+}
+.hero {
+    position: relative;
+    left: 200px;
+    top: 60px;
+    width: 85%;
+    /* background-color: red; */
+}
+.hero p, h1 {
+    width: 50%;
+    position: relative;
+    top: -55px;
+    
+    /* background-color: blue; */
+}
+.hero h3 {
+    position: relative;
+    top: -20px;
+    border-bottom: 3px solid black;
+    width: 12.3%;
+    padding-bottom: 25px;
+}
+.hero h3:hover {
+    border-bottom: 7px solid black;
+    transition: 1s;
+}
+.extrem {
+    width: 20%;
+    left: 970px;
+    height: 55px;
+    top: 550px;
+    border-radius: 30px;
+    z-index: 3;
+    background-color: white;
+    position: fixed;
+    box-shadow: 1px 3px 3px 1px ;
+    /* background-color: green; */
+}
+.extrem #play {
+    position: relative;
+    left: 80px;
+    top: -23px;
+    font-size: 16px;
+    width: 60%;
+    
+}
+.fa-lg {
+    position: relative;
+    left: 30px;
+    top: 18px;
+}
+.projects {
+    position: relative;
+    left: 200px;
+    top:190px;
+    width: 85%;
+
+}
+.projects h2{
+    margin-bottom: 80px;
+}
+#al {
+    position: relative;
+    left: -20px;
+    font-size: 11px;
+    width: 1005;
+    /* letter-spacing: .2PX; */
+    color: blue;
+}
+#al1 {
+    position: relative;
+    left: 70px;
+    font-size: 11px;
+    width: 1005;
+    /* letter-spacing: .2PX; */
+    color: blue;
+    top: -35px;
+    width: 40px;
+}
+.projects h3 {
+    font-size: 24px;
+    width: 250px;
+}
+.projects p, .projects h3 {
+    position: relative;
+    left: 50px;
+    top: 40px;
+    
+}
+.projects p {
+    width: 160px;
+}
+
+
+.one {
+    overflow: hidden;
+    grid-column:1/2;
+    grid-row: 1/2;
+    background-color: #FAFAFF;
+    border-radius: 90px 0px 0px 0px;
+}
+.two {
+    overflow: hidden;
+    grid-column:2/3;
+    /* z-index: 3; */
+    grid-row:1/2;
+    background-color: #FFF8F9;
+    border-radius: 0px 90px 0px 0px;
+}
+.three {
+    grid-column:1/2;
+    overflow: hidden;
+    grid-row: 2/3;
+    background-color: #E2E8FF;
+
+    border-radius: 90px 0px 0px 0px;
+}
+.four {
+    grid-column:2/3;
+    overflow: hidden;
+    border-radius: 0px 0px 90px 0px;
+    background-color: #F8FFFA;
+    grid-row:2/3;
+}
+.five {
+    grid-column:1/2;
+    overflow: hidden;
+    border-radius: 90px 0px 0px 0px;
+    grid-row:3/4;
+    background-color: #EDF6FD;
+}
+.six {
+    grid-column:2/3 ;
+    overflow: hidden;
+    background-color: #F0ECF4;
+    border-radius: 0px 90px 0px 0px;
+    grid-row:3/4;
+}
+.logo1 {
+    position: relative;
+    left: 15px;
+}
+.logo2 {
+    position: relative;
+    left: 35px;
+}
+.foot {
+    top: 160px;
+    position: relative;
+    left: 50px;
+    height: 150px;
+    width: 80%;
+}
+.image_right{
+    height: 400px;
+    width: 17%;
+    position: relative;
+    float: right;
+    right:100px;
+    top: 63px;
+    border: 4px solid black;
+    border-radius: 70px 0px 70px 0px;
+}
+.image_right img {
+    height: 400px;
+    width: 100%;
+    border-radius: 65px 0px 65px 0px;}
+.about h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 110px;
+}
+.about .p {
+    font-size: 19px;
+    font-weight: lighter;
+    width: 90%;
+    /* top: -50px; */
+    line-height: 40px;
+}
+
+hr {
+    top: 90px;
+    position: relative;
+    width: 92%;
+   
+}
+.about {
+    top: 53px;
+    position: relative;
+    left: 200px;
+    width: 85%;
+    /* background-color: green; */
+}
+
+
+
+
+
+.big {
+    /* background: linear-gradient(blue, white); */
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: -80px;
+    top: -390px;
+    border-radius: 100%;
+}
+.rotate {
+    animation-name: emma;
+    animation-duration: 5s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+@keyframes emma {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+.one1 {
+    background-color: rgb(0, 0, 255);
+    
+    /* transform: translate(-50%, -50%); */
+    height: 175px;
+    width: 350px;
+    border-radius: 300px 300px 0px 0px;
+}
+.two1 {
+    background-color: rgba(156, 149, 149, 0.575);
+    /* top: 50%;
+    left:50%; */
+    /* transform: translate(-50%, -50%); */
+    height: 175px;
+    width: 350px;
+    border-radius: 0px 0px 300px 300px;
+}
+.side {
+    float: right;
+    position: relative;
+    top: -520px;
+    right: 150px;
+}
+.head {
+    top: 200px;
+    position: relative;
+}
+.head h1 {
+    font-size: 60px;
+    
+}
+.head h4 {
+    font-size: 40px;
+    position: relative;
+    top: -140px;
+}
+.head h5 {
+    position: relative;
+    top: -160px;
+    font-size: 22px;
+    font-weight: lighter;
+    width: 90%;
+}
+.role {
+    float: right;
+}
+#stro {
+    background-color: rgb(0, 255, 81);
+    width: 100%;
+}
+.next {
+    position: relative;
+    top: 350px;
+    width: 100%;
+    background-color: red;
+}
+h6 {
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    width: 100%;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+/* 
+.one:hover .over #gtco:hover {
+    opacity: 0;
+} */
+
+
+#gtco {
+    position: relative;
+    left:123px;
+    top: 67px;
+}
+#gtco1 {
+    position: relative;
+    left: 120px;
+    top: 62px;
+}
+#gtco5 {
+    position: relative;
+    left: 120px;
+    top: 64px;
+}
+#gtco4 {
+    position: relative;
+    left: 120px;
+    top: 65px;
+}
+#gtco2 {
+    position: relative;
+    left: 120px;
+    top: 65px;
+}
+#gtco3 {
+    position: relative;
+    left: 120px;
+    top: 43px;
+}
+.all p {
+    font-size: 13px;
+}
+.all h3 {
+    font-size: 20px;
+}
+.one:hover .over {
+    position: relative;
+    overflow: hidden;
+    width:89.7%;
+    top: -224px;
+    /* z-index: 1; */
+    opacity: 1;
+    background-color: #FAFAFF;
+
+}
+
+.two:hover .over1 {
+    position: relative;
+    overflow: hidden;
+    top: -224px;
+    /* z-index: 1; */
+    opacity: 1;
+    background-color: #FFF8F9;
+
+}
+
+.three:hover .over2 {
+    position: relative;
+    overflow: hidden;
+    top: -221px;
+    width:89.7%;
+    /* z-index: 1; */
+    opacity: 1;
+    background-color: #E2E8FF;
+}
+.four:hover .over3 {
+    position: relative;
+    overflow: hidden;
+    top: -240px;
+    width:89.7%;
+    /* z-index: 1; */
+    opacity: 1;
+    background-color: #F8FFFA;
+
+}
+.five:hover .over4 {
+    position: relative;
+    width:89.7%;
+    overflow: hidden;
+    top: -248px;
+    /* z-index: 1; */
+    opacity: 1;
+    background-color: #EDF6FD;
+
+}
+.six:hover .over5 {
+    position: relative;
+    overflow: hidden;
+    width:89.7%;
+    top: -222px;
+    /* z-index: 1; */
+    opacity: 1;
+    background-color: #F0ECF4;
+
+}
+
+.over {
+    opacity: 0;
+}
+#firstover {
+    margin-left: 50px;
+    width: 100%;
+    font-size: 15px;
+    
+    line-height:34px;
+}
+#firstover1 {
+    margin-right: 40px;
+    width: 100%;
+    font-size: 15px;
+    line-height:34px;
+}
+/* .over a, .over1 a, .over2 a, .over3 a, .over4 a{
+    background-color: white;
+    padding: 12px;
+    position: relative;
+    top: -30px;
+} */
+.over a{
+    background-color: white;
+    padding: 12px;
+    position: relative;
+    top: -30px;
+    left: 70px;
+}
+.over1 a{
+    background-color: white;
+    padding: 12px;
+    position: relative;
+    top: -30px;
+    left: 70px;
+}
+.over2 a {
+    background-color: white;
+    padding: 12px;
+    position: relative;
+    top: 30px;
+    left:97px;
+}
+.over3 a{
+    background-color: white;
+    padding: 12px;
+    position: relative;
+    top: -10px;
+    left: 90px;
+}
+.over4 a{
+    background-color: white;
+    padding: 12px;
+    position: relative;
+    top: -30px;
+    left: 70px;
+}
+.over5 a {
+    background-color: white;
+    padding: 12px;
+    position: relative;
+    top: -30px;
+    left: 70px;
+
+}
+.over {
+    width: 89%;
+    z-index: 0;
+    transform: translateY(0px);
+    padding: 8px 0px 20px 45px;
+    opacity: 0;
+    /* text-align: center; */
+    font-size: 18px;
+    position: relative;
+    top: -100px;
+    height: 263px;
+    transition: top 1.5s;
+
+}
+.over1 {
+    width: 89%;
+    z-index: 0;
+    transform: translateY(0px);
+    padding: 8px 0px 20px 45px;
+    opacity: 0;
+    /* text-align: center; */
+    font-size: 18px;
+    position: relative;
+    top: -100px;
+    height: 254px;
+    transition: top 1.5s;
+
+}
+.over4 {
+    width: 89%;
+    z-index: 0;
+    transform: translateY(0px);
+    padding: 8px 0px 20px 45px;
+    opacity: 0;
+    /* text-align: center; */
+    font-size: 18px;
+    position: relative;
+    top: -100px;
+    height: 284px;
+    transition: top 1.5s;
+
+}
+.over2, .over3,.over5 {
+    width: 89%;
+    z-index: 0;
+    transform: translateY(0px);
+    padding: 8px 0px 20px 45px;
+    opacity: 0;
+    /* text-align: center; */
+    font-size: 19px;
+    position: relative;
+    top: -100px;
+    height: 254px;
+    transition: top 1.5s;
+
+}
+#al {
+    position: relative;
+    left: 30px;
+    top: 29px;
+    width: 40px;
+}
+#al1 {
+    position: relative;
+    top: 5px;
+    left: 120px;
+}
+.all {
+    top: -180px;
+    position: relative;
+    left: 100px;
+    display: grid;
+    width: 82%;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    grid-template-rows: 480px 480px 480px;
+
+}

@@ -1,0 +1,259 @@
+* {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a button {
+    cursor: pointer;
+}
+.scrol {
+    position: relative;
+    left: 199px;
+    top: 30px;
+    width: 50%;
+}
+.scrol p{
+    font-size: 14px;
+}
+
+.left li {
+    display: flex;
+    margin-bottom: 23px;
+}
+.left > a > button {
+    height: 30px;
+    width: 90px;
+    color: white;
+    background-color: black;
+}
+.left img {
+    width: 40px;
+    
+    height: 40px;
+    margin-bottom: 35px;
+    border-radius: 100%;
+}
+.left {
+    position: fixed;
+    left:60px;
+    top:35px;
+}
+.hero .image img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 35px;
+    border-radius: 100%;
+}
+.hero .image {
+    display: flex;
+    width: 50%;
+}
+
+.hero {
+    position: relative;
+    left: 200px;
+    top: 60px;
+    width: 85%;
+    /* background-color: red; */
+}
+
+.extrem {
+    width: 20%;
+    left: 970px;
+    height: 55px;
+    top: 550px;
+    border-radius: 30px;
+    z-index: 3;
+    background-color: white;
+    position: fixed;
+    box-shadow: 1px 3px 3px 1px ;
+    /* background-color: green; */
+}
+.extrem #play {
+    position: relative;
+    left: 80px;
+    top: -23px;
+    font-size: 16px;
+    width: 60%;
+    
+}
+.fa-lg {
+    position: relative;
+    left: 30px;
+    top: 18px;
+}
+
+.side {
+    float: right;
+    position: relative;
+    top: -520px;
+    right: 150px;
+}
+.head {
+    top: 220px;
+    position: relative;
+}
+.head h1 {
+    font-size: 60px;
+    
+}
+.head h4 {
+    font-size: 30px;
+    position: relative;
+    top: 90px;
+}
+.head h5 {
+    position: relative;
+    top: -140px;
+    font-size: 22px;
+    font-weight: lighter;
+    width: 90%;
+}
+#stro {
+    position: relative;
+    top: 90px;
+    padding: 0px;
+    margin: 0px;
+    /* font-size: 20px; */
+    line-height: 37px;
+}
+.introduction {
+    padding: 0px 28px 60px 28px;
+    background-color: #E2E8FF;
+}
+.introduction h4, .introduction p {
+    position: relative;
+    top: 40px;
+}
+.role {
+    float: right;
+    position: relative;
+    /* left: 100px; */
+    top: -250px;
+}
+.right {
+    position: relative;
+    left: 30pc;
+}
+.role #role {
+    font-size: 22px;
+}
+#goal {
+    font-size: 22px;
+}
+.goal, .role p, .mobile  {
+    line-height: 40px;
+
+}
+.goal p {
+    width: 100%;
+}
+.next {
+    position: relative;
+    top: 90px;
+    margin-bottom: 130px;
+    font-size: 18px;
+    width: 77.5%;
+}
+.next p {
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 37px;
+}
+
+#overview {
+    position: relative;
+    line-height: 40px;
+    top: 70px;
+    font-size: 22px;
+}
+
+.foot {
+    top: 350px;
+    position: relative;
+    left: 50px;
+    height: 150px;
+    width: 80%;
+}
+
+hr {
+    top: 280px;
+    position: relative;
+    width: 92%;
+}
+#into {
+    padding: 1px 28px 60px 28px;
+    background-color: rgba(255, 126, 126, 0.148);
+}
+.respn {
+    top: 150px;
+    width: 77.5%;
+    left: 200px;
+    position: relative;
+}
+h4 {
+    font-size: 32px;
+}
+.respn p {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 37px;
+}
+.respn h2 {
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+}
+.logo1 {
+    position: relative;
+    left: 15px;
+}
+.logo2 {
+    position: relative;
+    left: 35px;
+}
+#iphones {
+    position: relative;
+    top: -450px;
+    right: 200px;
+    height: 400px;
+}
+
+#pay {
+    font-size: 28px;
+    position: relative;
+    top: -70px;
+    font-weight: lighter;
+}
+#responsive {
+    top: -120px;
+    position: relative;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#prev {
+    float: right;
+    position: relative;
+    left: -10px;
+}
+#next {
+    position: relative;
+    left: 150px;
+    float: right;
+}
+#vir {
+    position: relative;
+    top: -5pc;
+}
+#view {
+    position: relative;
+    top: -101px;
+}
+#unli {
+    color: black;
+    text-decoration: underline;
+}

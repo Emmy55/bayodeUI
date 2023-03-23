@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .big {
+            background-color: red;
+            height: 50px;
+            border-radius: 100%;
+            width: 50px;
+        }
+        .rotate {
+            animation: rotation 2s;
+        }
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+        .infinite {
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="big rotate linear infinite" width="150" height="150">
+        
+    </div>
+</body>
+</html>
